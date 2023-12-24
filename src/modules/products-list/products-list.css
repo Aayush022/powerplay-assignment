@@ -1,4 +1,4 @@
-/* Dashboard.css */
+
 .dashboard-container {
     margin: 0 auto;
     padding: 20px;
@@ -44,13 +44,13 @@
   }
   
   .product-details h3 {
-    margin: 0 0 8px; /* Added bottom margin for better spacing */
+    margin: 0 0 8px; 
     font-size: 1.4rem;
     color: #333;
   }
   
   .product-details p {
-    margin: 0; /* Removed top margin for better alignment */
+    margin: 0; 
     font-size: 1rem;
     color: #888;
   }
