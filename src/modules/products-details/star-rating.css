@@ -1,12 +1,12 @@
 
   .star {
     font-size: 1.5rem;
-    color: #ffd700; /* Yellow color for stars */
+    color: #ffd700;
     margin-right: 2px;
   }
   
   .star.filled {
-    color: #f39c12; /* Orange color for filled stars */
+    color: #f39c12; 
   }
   
   .user-count {
