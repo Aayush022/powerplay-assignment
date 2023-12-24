@@ -1,4 +1,4 @@
-// components/StarRating.tsx
+
 import React from "react";
 import './star-rating.css'
 
