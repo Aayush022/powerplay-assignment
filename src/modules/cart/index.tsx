@@ -1,4 +1,4 @@
-// components/Cart.tsx
+
 import React, { useEffect, useState } from "react";
 import "./cart.css";
 import axios, { AxiosResponse } from "axios";
