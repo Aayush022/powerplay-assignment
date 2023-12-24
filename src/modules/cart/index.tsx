@@ -66,6 +66,8 @@ const Cart = () => {
       );
       const response = await Promise.all<AxiosResponse<IProduct>>(promises);
         let cartsMockData: IProduct[] = []
+        console.log(cartDetails);
+        
       response.forEach((response, index) => {
         const data = response.data;
         const quantity = productList.find(res => res.productId === data.id)?.quantity || 1

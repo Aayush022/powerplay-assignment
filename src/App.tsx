@@ -6,7 +6,6 @@ import {
   Switch,
   Redirect,
   Link,
-  useHistory,
 } from "react-router-dom";
 import "./App.css";
 import Login from "./modules/login";
@@ -15,7 +14,6 @@ import ProductDetails from "./modules/products-details";
 import Cart from "./modules/cart";
 
 const App = () => {
-  const history = useHistory()
 
   const validateLogin = () => {
     const token = localStorage.getItem("hasLoggedIn");
