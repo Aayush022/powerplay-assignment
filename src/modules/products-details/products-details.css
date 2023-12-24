@@ -1,0 +1,98 @@
+.product-details-container {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column; /* Change to column layout on small screens */
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-details img {
+    max-width: 100%; /* Make the image responsive */
+    max-height: 400px; /* Set a maximum height for the image in desktop view */
+    width: auto;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .product-info h2 {
+    margin: 0 0 8px;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .title-rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .product-info p {
+    margin: 0 0 16px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .quantity-section {
+    display: flex;
+    flex-direction: column; /* Change to column layout on small screens */
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .quantity-label {
+    margin-bottom: 8px; /* Add space between label and input on small screens */
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .quantity-input {
+    width: 100%; /* Make the input fill the container width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 8px; /* Add space between input and button on small screens */
+  }
+  
+  .add-to-cart-button {
+    width: 100%; /* Make the button fill the container width */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Media query for small screens (up to 600px) */
+  @media (max-width: 600px) {
+    .product-details {
+      flex-direction: column;
+    }
+  
+    .product-details-container{
+        margin-top: 0px;
+    }
+    .product-info {
+      padding: 10px;
+    }
+  
+    .quantity-section {
+      align-items: flex-start;
+    }
+  }
+  
