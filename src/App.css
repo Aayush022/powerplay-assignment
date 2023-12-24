@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 
-/* Add this to your CSS file */
+
 .top-bar {
   background-color: #3498db;
   color: #fff;
@@ -55,10 +55,10 @@
   padding: 10px;
 }
 
-/* Media query for screens larger than 600px */
+
 @media (min-width: 600px) {
   .top-bar-content {
-    padding: 0 20px; /* Add spacing on larger screens */
+    padding: 0 20px; 
   }
 }
 
